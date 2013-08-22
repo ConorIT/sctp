@@ -70,7 +70,7 @@ public class ServerImpl implements Server {
 	private int hostport;
 	private volatile boolean started = false;
 	private IpChannelType ipChannelType;
-	private boolean acceptAnonymousConnections;
+	private boolean acceptAnonymousConnections = true;
 	private int maxConcurrentConnectionsCount;
 	private String[] extraHostAddresses;
 
